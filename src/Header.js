@@ -9,7 +9,7 @@ class Header extends Component {
                 <p>{this.props.personInfo.occupation}</p>
             </div>
             <div class="contactInfo">
-                <p>Email: {this.props.contactInfo.email}</p>
+                <p>Email: <a href="mailto:abc@gmail.com">{this.props.contactInfo.email}</a></p>
                 <p>Web: {this.props.contactInfo.web}</p>
                 <p>Mobile: {this.props.contactInfo.mobile}</p>
             </div>
