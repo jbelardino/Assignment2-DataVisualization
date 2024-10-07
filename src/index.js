@@ -3,5 +3,5 @@ import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
-    <App>prop1="hello</App>
+    <App></App>
 );
